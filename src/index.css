@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-deepblue text-gray-100 antialiased; }
+
+.card { @apply bg-stadium/90 backdrop-blur-md rounded-xl p-4 shadow-lg }
